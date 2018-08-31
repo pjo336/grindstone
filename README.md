@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/pjo336/grindstone.svg?branch=master)](https://travis-ci.org/pjo336/grindstone)
