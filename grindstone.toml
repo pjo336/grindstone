@@ -1,0 +1,2 @@
+[task1]
+run= 'echo "foo"'

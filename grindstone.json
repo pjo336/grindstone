@@ -1,0 +1,6 @@
+{
+  "task1": "echo 'foo'",
+  "task2": {
+    "command": "echo 'yay!'"
+  }
+}

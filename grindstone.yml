@@ -1,0 +1,4 @@
+task1:
+  - stone: echo $HOME
+task2:
+  - grind: echo "derp"
