@@ -11,9 +11,9 @@ pub struct Task {
 }
 
 pub fn build_tasks() -> Result<Vec<Task>, Error> {
-    let task_file = config::get_config_file();
+    let task_file: String = config::get_config_file();
     let v: Value = serde_json::from_str(&task_file)?;
-    let keys = v.as_object().unwrap().keys();
+    let keys: serde_json::map::Keys = v.as_object().unwrap().keys();
     let mut tasks = Vec::new();
     for k in keys {
         tasks.push(Task {
